@@ -3,18 +3,6 @@ clear
 
 t = linspace(0, 2.*pi, 10^4);
 
-
-
-%ploting polar in a cartesian
-% x = r.*cos(t)
-% y = r.*sin(t)
-% plot(x, y)
-% xlim([-4, 4])
-% ylim([-4, 4])
-% % grid on 
-% % axis on
-% box off
-
 polarplot(t,0.5+sin(t));
 hold on
 % polarplot(t,2.*sin(t));
